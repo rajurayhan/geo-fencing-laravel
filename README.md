@@ -1,6 +1,6 @@
 ## Instruction
 
--Pull the nrep 
+- Clone the Repo
 - Run `composer install`
 - Configure ENV file 
 - Run `php artisan migrate --seed`
