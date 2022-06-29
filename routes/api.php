@@ -19,6 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/friend-near-by', function (Request $request) {
+
+    return $request->all();
     $position = [
         'latitude' => $request->latitude,
         'longitude' => $request->longitude,
